@@ -6,7 +6,7 @@
 GitHub: https://github.com/davidabbey102/e-commerce-back-end
 
 
-Heroku: https://my-e-commerce-back-end.herokuapp.com/api
+Heroku: https://my-e-commerce-back-end.herokuapp.com
 ## Description
 
 Using Express.js, a development database is created, which can be used to create, update, and delete data
