@@ -22,10 +22,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    include: {
-      model: Product,
-      attributes: ['product_name', 'price', 'stock', 'category_name']
-    }
+    include: [{ model: Product }]
   }).then(dbTagData => {
     if (!dbTagData) {
       res.status(404).json({ message: 'No tag found with this ID.' })
